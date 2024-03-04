@@ -1,0 +1,68 @@
+.illustration2MainContainer {
+    display: flex;
+     gap: 170px;
+    margin-top: 150px;
+    align-items: center;
+}
+.illustration2Content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 40%;
+}
+.illustration2Content h1,p {
+    margin: 0;
+    font-family: Rubik;
+}
+.illustration2Content h1 { 
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+    height: 100px;
+    width: 383px;
+}
+.illustration2Content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.il2Benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.il2Benefits p {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 2px;
+}
+.checkCircle {
+    width: max-content;
+    height: max-content;
+    margin-right: 3px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.benefitsContent {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+}
+.il2 {
+    width: 40%;
+}

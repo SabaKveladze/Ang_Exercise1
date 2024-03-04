@@ -1,0 +1,54 @@
+.infoMainContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 37px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 50px -50px
+    #0D1025;
+    
+} 
+
+.infoContentContainer {
+    display: flex;
+    gap: 36px;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+.infoContentContainer img {
+    width: 55px;
+    height: 55px;
+}
+.infoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.infoContent h3{
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+    margin: 0;
+}
+.infoContent p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+   
+    color:  #4F5665;
+    
+}
+.activeInfo {
+    border-right: 1px solid 
+    #EEEFF2;
+    border-left: 1px solid 
+    #EEEFF2;
+}
