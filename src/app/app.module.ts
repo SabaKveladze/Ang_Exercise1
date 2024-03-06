@@ -8,6 +8,8 @@ import { InfoSectionComponent } from './info-section/info-section.component';
 import { Illustration2Component } from './illustration2/illustration2.component';
 import { GrayBackgroundComponent } from './gray-background/gray-background.component';
 import { ProductPlansComponent } from './product-plans/product-plans.component';
+import { MapAndSocialsComponent } from './map-and-socials/map-and-socials.component';
+import { FeedbacksComponent } from './feedbacks/feedbacks.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ProductPlansComponent } from './product-plans/product-plans.component';
     InfoSectionComponent,
     Illustration2Component,
     GrayBackgroundComponent,
-    ProductPlansComponent
+    ProductPlansComponent,
+    MapAndSocialsComponent,
+    FeedbacksComponent
   ],
   imports: [
     BrowserModule
