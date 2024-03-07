@@ -27,10 +27,12 @@
     justify-content: center;
     border: none;
     align-items: center;
-    box-shadow: 0px 20px 50px -50px
-   red;
+    box-shadow: 0px 10px 50px -15px #F53838;
 
     
+}
+.firstIlustrationText button:hover {
+    background-color: rgb(239, 140, 140);
 }
 .firstIlustrationText h1 {
     font-family: Rubik;

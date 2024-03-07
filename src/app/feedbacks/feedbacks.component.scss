@@ -112,3 +112,58 @@
     display: 90%;
     justify-content: center;
 }
+.navigationContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    align-items: center;
+}
+.leftDots {
+    display: flex;
+    gap: 15px;
+}
+.dot {
+    background-color: #DDDDDD;
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+}
+.dot:hover {
+    background: #F53838;
+    width: 45px;
+   
+    transition-duration:0.6s;
+}
+
+.arrows {
+    display: flex;
+    gap: 20px;
+}
+
+
+.arrow {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #F53838;
+    border-radius: 40px;
+    display: flex;
+    position: relative; /* Add this line */
+    align-items: center;
+    
+    justify-content: center;
+}
+.arrow:hover {
+    background-color: #F53838;
+    transition-duration: 0.4s;
+    
+}
+.arrow img {
+    width: 20px;
+    height: 17.5px;
+    transition: filter 0.4s; 
+   
+}
+.arrow:hover img {
+   
+    filter: brightness(0) invert(1); 
+}

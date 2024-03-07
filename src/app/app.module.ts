@@ -10,6 +10,8 @@ import { Illustration2Component } from './illustration2/illustration2.component'
 import { ProductPlansComponent } from './product-plans/product-plans.component';
 import { MapAndSocialsComponent } from './map-and-socials/map-and-socials.component';
 import { FeedbacksComponent } from './feedbacks/feedbacks.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FeedbacksComponent } from './feedbacks/feedbacks.component';
 
     ProductPlansComponent,
     MapAndSocialsComponent,
-    FeedbacksComponent
+    FeedbacksComponent,
+    SubscribeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
