@@ -117,6 +117,7 @@
     justify-content: space-between;
     margin-top: 85px;
     align-items: center;
+    margin-bottom: 150px;
 }
 .leftDots {
     display: flex;
@@ -127,7 +128,9 @@
     height: 15px;
     width: 15px;
     border-radius: 20px;
+    
 }
+
 .dot:hover {
     background: #F53838;
     width: 45px;

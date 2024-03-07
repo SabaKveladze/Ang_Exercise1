@@ -108,6 +108,12 @@
     border: 2px solid #F53838;
     
 }
+.productCardsButtonAndPrice button:hover {
+    background-color: #F53838;
+    color: white;
+    transition-duration: 0.2s;
+}
+
 .price {
     color: gray;
 }
